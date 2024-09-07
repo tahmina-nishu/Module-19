@@ -6,7 +6,7 @@ let strng = 'i love javascript';
 let str = strng.split(" ");
 for(let i = 0; i < str.length; i++)
 {
-    str[i] = str[i][0].toLocaleUpperCase() + str[i].substring(1);
+    str[i] = str[i][0].toUpperCase() + str[i].substring(1);
 }
 const capitialized = str.join(" ");
 
